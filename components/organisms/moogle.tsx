@@ -7,7 +7,7 @@ interface Props {
   style?: string;
 }
 const Moogle: React.FC<Props> = (style) => {
-  return <div className={"flex flex-col " + style}>
+  return <div className={"flex flex-col min-h-screen justify-between " + style}>
       <Header style="" />
       <SearchInput style="" />
       <Footer style="" />
