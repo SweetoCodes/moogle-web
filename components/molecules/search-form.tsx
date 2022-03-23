@@ -50,11 +50,10 @@ const SearchInput: React.FC<Props> = (style) => {
             >
               Moogle Search
             </div>
-            <a href="https://charliesweeting.com/">
-            <div className="flex h-[36px] py-[7px] align-middle text-center border-transparent border-[1px] hover:border-gray-300 px-[16px] min-w-[54px] bg-[#f8f9fa] text-[#3c4043] text-[14px] mx-[11px] my-[4px] rounded-[4px] cursor-pointer ">
+            <a href="https://charliesweeting.com/" className="flex h-[36px] py-[7px] align-middle text-center border-transparent border-[1px] hover:border-gray-300 px-[16px] min-w-[54px] bg-[#f8f9fa] text-[#3c4043] text-[14px] mx-[11px] my-[4px] rounded-[4px] cursor-pointer ">
               I&apos;m Feeling Lucky
-            </div>
             </a>
+
           </div>
         </form>
       </div>

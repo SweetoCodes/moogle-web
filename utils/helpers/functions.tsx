@@ -9,7 +9,7 @@ async function Translate(str: string) {
   } else if (str.endsWith(" ")) {
     let words = str.split(" ");
     let lastWord = words[words.length - 2];
-    let translation = await TranslateWord(lastWord);
+    let translation = await TranslateWord(lastWord.toLowerCase());
     words[words.length - 2] = translation;
     let newSentence = words.join(" ");
     return newSentence;
