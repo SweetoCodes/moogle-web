@@ -6,7 +6,7 @@ interface Props {
 const Microphone: React.FC<Props> = (style) => {
   return (
     <svg
-      className={" h-6 w-6  " + style}
+      className={" h-6 w-6 cursor-pointer  " + style}
       focusable="false"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
