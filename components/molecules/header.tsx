@@ -14,19 +14,19 @@ const Header: React.FC<Props> = (style) => {
           </div>
         </a>
         <a href="https://charliesweeting.com/">
-          <div className="p-[5px] mx-[5px] text-[#202124] text-[14px] hover:underline cursor-pointer ">
+          <div className=" hidden sm:flex p-[5px] mx-[5px] text-[#202124] text-[14px] hover:underline cursor-pointer ">
             Store
           </div>
         </a>
       </div>
       <div className="flex flex-row items-center">
         <a href="https://charliesweeting.com/">
-          <div className="p-[5px] mx-[5px] text-[#202124] text-[14px] hover:underline cursor-pointer ">
+          <div className=" hidden sm:flex p-[5px] mx-[5px] text-[#202124] text-[14px] hover:underline cursor-pointer ">
             Gmail
           </div>
         </a>
         <a href="https://charliesweeting.com/">
-          <div className="p-[5px] mx-[5px] text-[#202124] text-[14px] hover:underline cursor-pointer ">
+          <div className=" hidden sm:flex p-[5px] mx-[5px] text-[#202124] text-[14px] hover:underline cursor-pointer ">
             Images
           </div>
         </a>
