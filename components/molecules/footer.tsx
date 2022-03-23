@@ -11,7 +11,7 @@ const Footer: React.FC<Props> = (style) => {
       </div>
       <a
         href="https://charliesweeting.com/"
-        className="mx-auto p-[15px] text-[14px] hover:underline cursor-pointer text-[#70757a] "
+        className=" lg:hidden mx-auto p-[15px] text-[14px] hover:underline cursor-pointer text-[#70757a] "
       >
         Moo neutral since 2022
       </a>
