@@ -15,7 +15,7 @@ const Footer: React.FC<Props> = (style) => {
       >
         Moo neutral since 2022
       </a>
-      <div className="flex flex-wrap mx-[20px] justify-evenly ">
+      <div className="flex flex-wrap mx-[20px] md:justify-between justify-evenly ">
         <div className="flex flex-row">
           <a
             href="https://charliesweeting.com/"
