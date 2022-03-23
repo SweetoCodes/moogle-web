@@ -14,7 +14,7 @@ const SearchInput: React.FC<Props> = (style) => {
     <div className={" mx-auto w-full " + style}>
       <div className="flex flex-col w-full ">
         <div className=" w-[272px] mx-auto ">
-          <img src={"/assets/moogle-logo.png"} />
+          <img src={"/assets/moogle-logo.png"} alt="Moogle Logo" />
         </div>
 
         <form
@@ -51,7 +51,7 @@ const SearchInput: React.FC<Props> = (style) => {
               Moogle Search
             </div>
             <div className="flex h-[36px] py-[7px] align-middle text-center border-transparent border-[1px] hover:border-gray-300 px-[16px] min-w-[54px] bg-[#f8f9fa] text-[#3c4043] text-[14px] mx-[11px] my-[4px] rounded-[4px] cursor-pointer ">
-              I'm Feeling Lucky
+              I&apos;m Feeling Lucky
             </div>
           </div>
         </form>
@@ -61,17 +61,3 @@ const SearchInput: React.FC<Props> = (style) => {
 };
 
 export default SearchInput;
-
-// background-color: #f8f9fa;
-//     border: 1px solid #f8f9fa;
-//     border-radius: 4px;
-//     color: #3c4043;
-//     font-family: arial,sans-serif;
-//     font-size: 14px;
-//     margin: 11px 4px;
-//     padding: 0 16px;
-//     line-height: 27px;
-//     height: 36px;
-//     min-width: 54px;
-//     text-align: center;
-//     cursor: pointer;
