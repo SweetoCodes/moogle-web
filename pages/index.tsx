@@ -8,8 +8,8 @@ const Home: NextPage = () => {
       <SEO
         title="Moogle"
         description="An accessible search engine for discovering cow based content"
-        keywords="Moogle Translation Cow"
-        imagePreview="/assets/gmail.png"
+        keywords="Moogle Translation Cow Search-Engine"
+        imagePreview="/assets/moogle-logo.png"
       />
       <Moogle />
     </div>
